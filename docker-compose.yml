@@ -1,0 +1,14 @@
+version: '1'
+services:
+  pokedex-vue3:
+    container_name: client-side
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 127.0.0.1:5173:5173
+    volumes:
+      - ./:/app
+      - /app/node_modules 
+    environment: 
+      - CHOKIDAR_USEPOLLING=true
