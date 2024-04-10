@@ -1,7 +1,7 @@
 version: '1'
 services:
   pokedex-vue3:
-    container_name: client-side
+    container_name: pokedex-vue3-client-side
     build:
       context: .
       dockerfile: Dockerfile
