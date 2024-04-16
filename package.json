@@ -1,0 +1,16 @@
+{
+    "name": "pokedex-vue3",
+    "private": true,
+    "version": "0.1.0",
+    "type": "module",
+    "scripts": {
+    },
+    "author": {
+        "name": "Edgar Dias",
+        "email": "dias.s.edgar@gmail.com",
+        "url": "https://edgar-dias.eu"
+    },
+    "devDependencies": {
+        "vite": "^4.1.0"
+      }
+  }
