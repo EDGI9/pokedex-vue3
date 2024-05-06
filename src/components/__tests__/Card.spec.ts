@@ -1,10 +1,10 @@
 import { describe, it, expect, beforeEach } from 'vitest';
-import { mount } from '@vue/test-utils';
+import { mount, VueWrapper } from '@vue/test-utils';
 import Card from './Card.vue';
 
 
 describe('Card', () => {
-    let wrapper: any;
+    let wrapper: VueWrapper<any>;
     const mainColor:string = '#f0f0f0';
     const accentColor:string = '#3f51b5';
     const titleText:string = 'My Title';

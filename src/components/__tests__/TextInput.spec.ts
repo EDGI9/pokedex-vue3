@@ -1,9 +1,10 @@
-import { mount } from '@vue/test-utils';
+import { describe, it, expect, beforeEach } from 'vitest';
+import { mount, VueWrapper } from '@vue/test-utils';
 import TextInput from './TextInput.vue';
 
 
 describe('TextInput', () => {
-    let wrapper;
+    let wrapper: VueWrapper<any>;
     const mockText = 'Hello World';
 
     beforeEach(() => {

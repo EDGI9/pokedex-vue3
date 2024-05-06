@@ -1,8 +1,9 @@
-import { mount } from '@vue/test-utils';
+import { describe, it, expect, beforeEach } from 'vitest';
+import { mount, VueWrapper } from '@vue/test-utils';
 import ProgressBar from './ProgressBar.vue';
 
 describe('ProgressBar', () => {
-  let wrapper;
+  let wrapper: VueWrapper<any>;
 
   beforeEach(() => {
     wrapper = mount(ProgressBar, {
